@@ -1,6 +1,7 @@
 package com.microserv.hrworker.resources;
 
 import java.util.List;
+import com.microserv.hrworker.entities.*;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -9,7 +10,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.microserv.hrworker.entities.Worker;
+
 import com.microserv.hrworker.repositories.WorkerRepository;
 
 @RestController
